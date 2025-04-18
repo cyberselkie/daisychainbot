@@ -1,0 +1,606 @@
+{
+    "Baseball Bat": {
+        "t1": [
+            {
+                "name" : "Bell Ringer",
+                "prose": "Make an attack and if successful, the enemy is Stunned for 1 round."
+            },
+            {
+                "name" : "Eye on the Ball",
+                "prose": "You gain +1 Primary to attacks when hitting targets that are shaped like a sphere."
+            },
+            {
+                "name" : "Find the Pocket",
+                "prose": "Make an attack targeting a specific part of the enemy and if successful, Crush that body part for a number of rounds equal to your Power turns."
+            },
+            {
+                "name" : "Out of Bounds",
+                "prose": "Conjure a baseball made of some magical, glowing force, toss it in the air, and hit it at the enemy with your bat as an attack with range equal to your Power."
+            },
+            {
+                "name" : "Slide",
+                "prose": "After a hit, you may move up to your Power in any direction."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Bat Outta Hell",
+                "prose": "Your power knows no bounds, and you attack in a bloodthirsty rage. Make a number of attack rolls equal to your Secondary, one after the other. The ends if you roll a cumulative number of sixes equal to your Secondary."
+            },
+            {
+                "name": "Bone Breaker",
+                "prose": "On a hit, you may break your bat to inflict double harm. It takes a single Jury-rig maneuver to repair. While broken, you suffer -1 Primary."
+            },
+            {
+                "name": "Called Shot",
+                "prose": "You point at an enemy. Until the start of the next round, all allies are considered to have used an Invoke action, and the target enemy is Marked."
+            },
+            {
+                "name": "Heads Up",
+                "prose": "Make an attack and if lethal, decapitate the enemy, launching their head into an enemy within range equal to your Power, inflicting any excess harm from the initial attack."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Bases Loaded",
+                "prose": "Make an attack, and if successful, grant an ally within range equal to your Primary a free attack action with +1 Primary. If the initial attack succeeds with at least two hits, a different ally within range equal to their Primary may do the same, increasing the bonus to +2 Primary."
+            },
+            {
+                "name": "Bunt",
+                "prose": "Make an attack, and if successful, the enemy makes a basic attack against you. Then, all allies within their attack range of the target get to take a single basic attack action against it."
+            },
+            {
+                "name": "Rub Some Dirt On It",
+                "prose": "Quickly tend to your wounds with whatever’s around. Heal yourself for all harm you took in the past round."
+            }
+        ]
+    },
+    "Brass Knuckles": {
+        "t1": [
+            {
+                "name": "Flex",
+                "prose": "You take a moment to peacock, flexing your muscles to Bolster yourself and winking at an enemy within range equal to your PL, to Bewitch them."
+            },
+            {
+                "name": "Float Like a Butterfly",
+                "prose": "You're especially light on your feet, able to react to attacks before the enemy can follow through. Gain Bolster and the next time an enemy targets you with an attack, you may make an attack against them first."
+            },
+            {
+                "name": "Gut Shot",
+                "prose": "Make an attack aiming for their weak spots. If successful, the enemy is Stunned for 1 round."
+            },
+            {
+                "name": "Intimidating Aura",
+                "prose": "You keep a mean look in your eyes. Enemy movement costs 2 actions instead of 1 in an aura around you with range equal to your PL."
+            },
+            {
+                "name": "Lariat",
+                "prose": "You hook your arm around the target as an attack that moves them up to your Secondary. You end this ability adjacent to the target’s new position."
+            },
+            {
+                "name": "One-Two",
+                "prose": "Make an attack and if successful, the enemy is left wide open, granting you +1 Primary on your next attack this turn."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Crushing Blows",
+                "prose": "You've got them on the back leg—each successful attack taken may push the enemy up to your PL backwards, in the direction of the attack."
+            },
+            {
+                "name": "Eye Poke",
+                "prose": "You're not against fighting dirty. Aim an attack at whatever the enemy uses to see and if successful, you inflict Bewitch and Bleed for rounds equal to your Secondary."
+            },
+            {
+                "name": "Overhead",
+                "prose": "You smash your weapon over the enemy's head as an attack and if successful, cause Stun."
+            },
+            {
+                "name": "Sting Like a Bee",
+                "prose": "When you get hit, you hit back twice as hard, and you're waiting to get hit. If you're successfully hit by an attack before the beginning of your next turn, you may immediately make an attack against the enemy that hit you. Additionally, roll the attack twice, taking the better result and adding your Secondary as bonus harm."
+            },
+            {
+                "name": "The Iron Mike",
+                "prose": "Make two attacks. If you succeed on both, you may make a third attack against the enemy, biting them and causing Bleed for rounds equal to your Heart."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Combo Breaker",
+                "prose": "After a successful attack, you may expend all of your Combo stacks to multiply your successful hits and the resulting harm done by the stacks spent."
+            },
+            {
+                "name": "Juggle",
+                "prose": "If you have at least 2 enemies adjacent to you, toss two of them in the air. You may continue to Juggle so long as you spend an action each turn, and may add 1 more enemy to the Juggle each turn with a successful attack as long as Juggle. Juggled enemies are Entangled."
+            },
+            {
+                "name": "Rain Down Blows",
+                "prose": "Make an attack and if successful with at least two hits, make another free attack, but with -1 Primary. Repeat until you run out of dice, or until you make an attack with no hits."
+            },
+            {
+                "name": "Touch of Death",
+                "prose": "Gazing at the heart of the enemy, you make a single attack. If the attack succeeds with at least three hits, the enemy dies at the beginning of the next round. If the attack succeeds with two or less hits, then the enemy is Stunned instead."
+            }
+        ]
+    },
+    "Chainsaw": {
+        "t1": [
+            {
+                "name": "Charge",
+                "prose": "You charge forward, moving up to your Speed in one direction toward an enemy, then make an attack. If you moved an amount equal to at least your Heart, gain +1 Primary to your attack."
+            },
+            {
+                "name": "DAISY CHAINSAW",
+                "prose": "Your favorite flower grows from cuts made with this attack, Entangling your target for rounds equal to your Heart. Blood splatters from the enemy in a burst equal to your PL, spreading the flowers and causing Entangle to anyone in the burst for 1 round."
+            },
+            {
+                "name": "Firesaw",
+                "prose": "The fire inside you burns so fiercely that your chainsaw catches flame. You inflict additional harm with your attack equal to your Secondary for rounds equal to your Heart."
+            },
+            {
+                "name": "Look At Me",
+                "prose": "You rev your chainsaw, Bolstering yourself and force all adjacent enemies to attack you for rounds equal to your Heart."
+            },
+            {
+                "name": "Shredder",
+                "prose": "Your chainsaw is running and at the ready. The next time a melee attack is aimed at an ally within range of your attack, you Protect them and Dismember the enemy."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Carving",
+                "prose": "You are an artist. You make several precision cuts on the enemy, inflicting harm as usual, and revealing any vulnerabilities to your allies. The enemy is considered to be under the effect of the spell Mark for turns equal to your PL."
+            },
+            {
+                "name": "Come and Get It",
+                "prose": "The fury in your heart empowers your rev, Bolstering yourself and Taunting enemies within an aura equal to your Heart. Lasts for rounds equal to your Heart or until you take an action to end the effect."
+            },
+            {
+                "name": "Knee-Chopper",
+                "prose": "You aim low, swiping your Chainsaw in a circle around you. Make one attack for every two adjacent enemies against the enemy with the highest PL, and inflict harm to all adjacent enemies."
+            },
+            {
+                "name": "Spare Gas Can",
+                "prose": "You siphon fuel from your Chainsaw and make an attack with range equal to your Heart, dowsing the enemy with gas. Any damaging spell or hit with Firesaw ignites the gas, setting the enemy Aflame for rounds equal to your Secondary."
+            },
+            {
+                "name": "Tear Through",
+                "prose": "You don't stop just because the enemy is dead, and once you cut through something, you continue to cut through an adjacent enemy, dealing the excess harm from a lethal attack with no roll."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Chainnado",
+                "prose": "You summon another chainsaw and hold both by the ripcord, spinning them in a whirlwind of death. All creatures in a burst equal to your PL suffer harm equal to your Heart, and Bleed."
+            },
+            {
+                "name": "DAISY CHAINSAW DELUXE",
+                "prose": "Upgrades the Daisy Chainsaw ability (required) to inflict harm to the target equal to your Primary harm equal to your Secondary to all within the burst."
+            },
+            {
+                "name": "Hedge Trimmer",
+                "prose": "You work fast with your chainsaw, cutting the enemy up as if they were the branches of a tree. A successful attack Dismembers a number of limbs equal to your Secondary. If you dismember all limbs, they die."
+            },
+            {
+                "name": "Lumberjack Special",
+                "prose": "You use the Woodchipper maneuver against a nearby tall environmental element, causing it to fall and Entangle enemies in a line as long as your Secondary."
+            },
+            {
+                "name": "Rev n' Parry",
+                "prose": "When you use your Come and Get It ability (required) you inflict harm equal to your Heart and Bleed for lasting for your PL rounds against any enemy who successfully hits you during the effect."
+            }
+        ]
+    },
+    "Gun": {
+        "t1": [
+            {
+                "name": "Bubble Gun",
+                "prose": "You attack, shooting a giant bubble at an enemy. If successful, no harm is dealt but the enemy is Entangled in the bubble. The enemy must destroy the bubble to escape. It has HP equal to your PL. Allies may attack the enemy without popping the bubble."
+            },
+            {
+                "name": "Fairyflash Grenade",
+                "prose": "You throw a magical grenade, inflicting 2 of your choice: Bewitch, Aflame, or Bleed, in a burst equal to your PL around the target."
+            },
+            {
+                "name": "Ready, Aim…",
+                "prose": "You lock onto a target as glowing sigils rapidly spin into alignment in front of your gun. Your next attack inflicts additional harm equal to your Charm. If you are successfully hit between your initial lock-on and your attack, your aim is interrupted."
+            },
+            {
+                "name": "Rocket Shell",
+                "prose": "You fire the Gun downward, propelling you into the air equal to your Focus and inflicting harm equal to your Charm in a 10’ burst on takeoff and landing."
+            },
+            {
+                "name": "Suppressing Fire",
+                "prose": "For one round, enemies must spend 2 actions to move while within a cone equal to double your Charm in front of you."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Big Fucking Gun",
+                "prose": "Your gun grows three sizes this day. All successful attacks, spell attacks, and abilities have a burst radius equal to Charm for 3 rounds."
+            },
+            {
+                "name": "Flamethrower",
+                "prose": "Make an attack for each enemy in a Secondary-sized cone. Enemies hit suffer harm equal to your Secondary and are set Aflame for rounds equal to PL."
+            },
+            {
+                "name": "Minefield",
+                "prose": "Choose a spell you know. You set a spell-enhanced minefield over a number of grid-squares equal to your Charm, which activate at the beginning of your next turn. Any enemies who step on an active mine suffer the effects of the spell and are set Aflame for rounds equal to PL."
+            },
+            {
+                "name": "Missile Surfing",
+                "prose": "You move equal to your Charm in a straight line, setting anyone you contact Aflame and inflicting harm equal to your Charm in a 15’ burst on landing."
+            },
+            {
+                "name": "Ricochet",
+                "prose": "On a lethal spell attack, the attack ricochets to a random enemy within range equal to your Charm from the target, inflicting the excess harm to the new target."
+            }
+        ],
+        "t3": [
+            {
+                "name": "An Even Bigger Fucking Gun",
+                "prose": "Your gun grows six sizes this day. All successful attacks, spell attacks, and abilities have a burst radius equal to Charm for 3 rounds, increase their range by Charm, and apply the effects of the Ricochet ability."
+            },
+            {
+                "name": "Dead Man’s Switch",
+                "prose": "You are not afraid to die. On a successful attack, inflict double harm to all targets within a burst equal to your PL, including yourself."
+            },
+            {
+                "name": "Orbital Cannon",
+                "prose": "You have a backup plan in the form of a big, red button. You inflict harm to an enemy of your choice anywhere, so long as you know their exact location."
+            },
+            {
+                "name": "Smoke and MirrorsSmoke and Mirrors",
+                "prose": "Everyone on the Team gains +2 Primary and enemies suffer -2 Primary (minimum of 1) for the encounter."
+            }
+        ]
+    },
+    "Hat": {
+        "t1": [
+            {
+                "name": "Fluffy",
+                "prose": "Your familiar is especially large and tough for their kind. Enemies roll one less die when attacking the familiar."
+            },
+            {
+                "name": "Magic Trick",
+                "prose": "Your familiar has a few tricks up their sleeve...or under their paw, or behind those mysterious, too-many eyes. They know a number of spells equal to your Charm."
+            },
+            {
+                "name": "Rabbit",
+                "prose": "You can recall your familiar through an extra-dimension portal in your hat. They are deposited adjacent to you, happy to see you."
+            },
+            {
+                "name": "Tip Your Hat",
+                "prose": "You tip your Hat towards an enemy within range. Your familiar attacks the target, and they gain +1 Primary to their next attack."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Extra-Dimensional",
+                "prose": "Your Hat is bigger on the inside. If you need something, roll 1d6. On a 1, you find something useful, but not what you asked for. On a 6, you find exactly what you need. On a 3, you find what you need, but it’s broken. All other results, nothing."
+            },
+            {
+                "name": "Fusion",
+                "prose": "Your familiar joins forms with your other weapon, activating the effects of Jury-rig for as long as they are fused. If you incur harm while your familiar and your other weapon are fused, it does not cancel the effect."
+            },
+            {
+                "name": "MC’s Best Friend",
+                "prose": "Your familiar sacrifices some of their HP to heal an equal amount of your HP. Harm suffered this way cannot be reduced by any means."
+            },
+            {
+                "name": "Stress Relief",
+                "prose": "Petting your familiar relieves some of the very present, very current stress in your life. Reduce the Burnout chance and BP gain of your next Harm spell or ability by 1."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Bottomless Stomach",
+                "prose": "Your familiar is very hungry. On a successful attack made by your familiar with at least three hits, it swallows the target whole, healing the familiar for HP equal to the target’s PL. The target may roll an attack at the beginning of the next round to try and escape. If it does not escape, it dies."
+            },
+            {
+                "name": "Hat Trick",
+                "prose": "Summon three hats anywhere within range equal to your Charm, one of which must contain you or an ally. The hat covers the ally or yourself, and all three hats shuffle. While hidden under the hat, you may cast spells, which appear to come from all three hats, but not attack. If the enemy hits the wrong hat, it explodes in a burst of confetti, setting the enemy Aflame. The hats last 3 turns, or until you or the ally attacks."
+            },
+            {
+                "name": "Mad Hatter",
+                "prose": "Why is a raven like a writing desk? You shout a riddle or insult so confusing that every enemy within burst equal to your Primary is afflicted with Stun until they figure it out, regardless of whether they can understand you or if they are even capable of conscious thought. At the beginning of the round, stunned enemies roll 1d6, and on a 6, the Stun ends and is now afflicted with Taunt towards you."
+            },
+            {
+                "name": "Tentacle Tantrum",
+                "prose": "You pull off your hat, revealing the many oil-black tentacles of a monster that resides within. It grabs and throws enemies and allies alike at random within burst equal to your Charm. Allies and Bosses that fail their save are thrown a distance equal to your Primary. All others are thrown into a nearby wall or building, inflicting harm equal to your Secondary."
+            }
+        ]
+    },
+    "Katana": {
+        "t1": [
+            {
+                "name": "Blossom Guard",
+                "prose": "Make an attack. The blood from the enemy turns into your favorite flower petals. These obscure you from the enemy, and you Bolster."
+            },
+            {
+                "name": "Mantis Sheathe",
+                "prose": "Move up to your Power, and make an attack. If you moved at least half of your Power and the attack succeeded, you inflict additional harm equal to your PL to the target. You Sheathe your weapon immediately after this attack, but may not make another attack or use a harm ability this turn."
+            },
+            {
+                "name": "Mugai-Ryu",
+                "prose": "You make one attack, inflicting double harm."
+            },
+            {
+                "name": "Perfect Draw",
+                "prose": "When an enemy attacks you, you may roll 1d6 and, on a 6, you make a basic attack against them first, without expending an action."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Refined Sweep",
+                "prose": "Your melee basic attacks may target three adjacent enemies at once."
+            },
+            {
+                "name": "Triple Slash",
+                "prose": "Make two attacks against a single enemy. If you reach a cumulative total of hits equal to your Secondary, make a third attack."
+            },
+            {
+                "name": "Untouchable",
+                "prose": "On a successful attack against you, you attack the enemy first, using no action. If the attack is lethal, the remaining harm is dealt to an adjacent enemy. May not be used with a Sheathed weapon."
+            },
+            {
+                "name": "Vessel Strike",
+                "prose": "Your successful attacks inflict Bleed. Your Bleed effects may stack equal to your PL."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Haiku",
+                "prose": "Describe your action and its effects in a haiku. The effects of your action are based on the Haiku, as interpreted by the DM."
+            },
+            {
+                "name": "Sword Dance",
+                "prose": "Your weapon dances besides you, watching your back and deflecting blows in between its own attacks. Enemies suffer -2 Primary to attacks against you."
+            },
+            {
+                "name": "Thousand Cuts",
+                "prose": "You make three quick attacks. Each successful attack doesn’t do immediate harm, but adds a stacking multiplier to your harm dealt by 2, with a maximum multiplier of 6. The harm is dealt at the beginning of the next round."
+            }
+        ]
+    },
+    "Knives": {
+        "t1": [
+            {
+                "name": "Dash",
+                "prose": "You may dash up to your Focus and make an attack in one action, moving easily past anything in your path."
+            },
+            {
+                "name": "Double Up",
+                "prose": "Your allies may target a Knife Stuck inside an enemy with a melee attack to drive it in, inflicting extra harm equal to your Focus and applying any effects related to a Stuck knife."
+            },
+            {
+                "name": "Recall",
+                "prose": "You may recall all your Stuck or thrown Knives to your hands."
+            },
+            {
+                "name": "Saute",
+                "prose": "You set your Knives ablaze and attack, setting struck enemies Aflame for turns equal to your PL."
+            },
+            {
+                "name": "Slice and Dice",
+                "prose": "Make an attack and if successful, you apply Bleed and any other afflictions from your weapons for Focus rounds. If your weapon already applies Bleed, it stacks twice."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Butterfly Flourish",
+                "prose": "You may flourish your Knife with an attack, Bewitching the enemy and gain +1 Primary to your next attack."
+            },
+            {
+                "name": "Julienne",
+                "prose": "You cut your opponent to ribbons, Entangling them for turns equal to your Secondary in their own blood and guts."
+            },
+            {
+                "name": "Like Butter",
+                "prose": "You cut through the enemy like a knife through butter, ignoring any status effects that may be benefiting them."
+            },
+            {
+                "name": "Reverse Recall",
+                "prose": "You teleport instantly to one of your Stuck Knives and may then make a basic attack."
+            },
+            {
+                "name": "Telekinesis",
+                "prose": "You use your mind to telekinetically control all of your Knives, keeping them within range equal to your Secondary. Attacks made within this range are considered adjacent."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Ducks in a Row",
+                "prose": "Make an attack and if successful, you may hit a number of enemies equal to your Focus in a line, inflicting the same harm to each. Your Knife is Stuck in the last enemy hit."
+            },
+            {
+                "name": "Triple Threat",
+                "prose": "Your Knives triplicate themselves upon a successful basic attack, inflicting three times the harm. This ability lasts three turns."
+            },
+            {
+                "name": "When It Rains",
+                "prose": "Infinite blades rain from the sky in a Primary burst centered on yourself, inflicting harm equal to double your Secondary to enemies."
+            },
+            {
+                "name": "Whirl of Blades",
+                "prose": "Make six attacks against any number of enemies within range.. However, any allies between you and your targets must save or suffer half harm, rounded up."
+            }
+        ]
+    },
+    "Microphone": {
+        "t1": [
+            {
+                "name": "Beat Drop",
+                "prose": "Enemies within your Stage Presence are afflicted with Bewitch."
+            },
+            {
+                "name": "Duet",
+                "prose": "Whenever you gain a status effect, you may grant it to one ally within your Stage Presence. This ability cannot trigger itself."
+            },
+            {
+                "name": "Ensemble",
+                "prose": "Target a number of enemies or allies, in any combination, equal to your Charm. Enemies are Bewitched, allies are Invoked. The Bewitched effect lasts for turns equal to your PL."
+            },
+            {
+                "name": "Siren Song",
+                "prose": "Your song worms its way into even the most eldritch of hearts. Make an attack and if successful, the target suffers no harm but is Bewitched and Taunted for turns equal to your PL."
+            },
+            {
+                "name": "Soundtrack",
+                "prose": "You don't stop the music when you fight—even your callouts and insults are in tune. For every consecutive round you keep the soundtrack going by using this ability, yourself and your allies within your Stage Presence gain +1 Primary to their attacks. This stacks per round up to a maximum equal to your Secondary."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Echo",
+                "prose": "You capture the actions of your allies, weaving them into your beats. You may repeat any spell or ability used by an ally within your Stage Presence this round."
+            },
+            {
+                "name": "Encore",
+                "prose": "Your friend moved so well that you want to see it happen again. Choose one ally that has acted this round. That ally may immediately take another turn."
+            },
+            {
+                "name": "Harmony",
+                "prose": "You move with the flow of your Team. When you attack an enemy that has been harmed by an ally this round, you gain +1 Primary."
+            },
+            {
+                "name": "Protective Melody",
+                "prose": "Utility spells cast on two or more allies (including yourself) heal HP equal to your Charm as well as the original spell effect."
+            },
+            {
+                "name": "Radio Show",
+                "prose": "You extend your range through the power of radio waves. Choose one ally. You may cast spells from their position, using their Charm for the range."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Fast Forward",
+                "prose": "You’d rather not hear this song. Choose one enemy. Their turn is skipped. May only be used once per enemy, per Episode."
+            },
+            {
+                "name": "Rewind",
+                "prose": "Choose one ally on the map who is Dead. You may bring them back to life at their HP total before the fatal blow that killed them."
+            },
+            {
+                "name": "Pause",
+                "prose": "Stun all enemies in your Stage Presence for one round."
+            },
+            {
+                "name": "Play",
+                "prose": "All allies in your Stage Presence have 3 actions this round, instead of 2."
+            }
+        ]
+    },
+    "Roller Skates": {
+        "t1": [
+            {
+                "name": "Apex Jump",
+                "prose": "If anything thinks it can catch you, it should think twice—you've turned the battlefield into your playground. You jump half your normal Speed (rounded up) avoiding enemies, terrain, and other effects that may stand in your way. If your previous action was a move, you jump your full Speed instead."
+            },
+            {
+                "name": "Elbow",
+                "prose": "You jab out your elbow as you skate by, attacking an enemy that is adjacent to your move, without stopping your move."
+            },
+            {
+                "name": "Fall Small",
+                "prose": "When suffering harm, you may curl up and drop to the ground without an action, halving any subsequent harm until the next round. You must take an action to stand back up again."
+            },
+            {
+                "name": "Flashy",
+                "prose": "You Taunt an enemy for PL rounds with some stylish moves. Afterward, for every enemy you have Taunted (by any means) at one time, you gain +1 Primary to your attacks."
+            }
+        ],
+        "t2": [
+            {
+                "name": "FLAMEZz",
+                "prose": "You painted flames on your skates, and now enemies aren’t just left in your dust—they’re left in smoke and fire, too. Enemies in a cone equal to your Secondary behind you are set Aflame."
+            },
+            {
+                "name": "Limbo",
+                "prose": "How low can you go? Enemies much larger than you suffer -1 Primary when attacking you."
+            },
+            {
+                "name": "Rolling Roulette",
+                "prose": "Choose an ally. You both roll 1d6. If you roll the same number, you both heal harm equal to the number rolled. Otherwise, you alone gain a benefit according to your roll. \n  1–2 Invoke \n  3–2 Bolster \n  5–6 Jury-Rig"
+            },
+            {
+                "name": "Wall-Skate",
+                "prose": "You can skate along any surface and so long as you remain in motion, you do not fall."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Wheel of Fortune",
+                "prose": "Roll 1d6 at the beginning of your turn. Until the beginning of the next round, all of your attacks, abilities, and spells afflict the corresponding status effect to the target.\n  1 - Invoke\n  2 - Aflame\n  3 - Entangle\n  4 - Poison\n  5 - Bewitch\n  6 - Bolster"
+            },
+            {
+                "name": "Around the World",
+                "prose": "You’ve spent the past few rounds building up speed around the track, weaving around enemies without making a strike. Depending on how many actions you’ve spent without making a basic attack or using a harm ability, your attack made with this ability is powered up.\n  1 Action - +2 Primary to Attack\n  2 Actions - Double Harm\n  3 Actions - Triple Harm"
+            },
+            {
+                "name": "Roll With It",
+                "prose": "You’ve got increased maneuverability, but you don’t just need to zoom forwards. When hit by an enemy, you can skate backwards up to your Secondary in a straight line, reducing the amount of harm suffered equal to how far away you move from the enemy."
+            }
+        ]
+    },
+    "Whip": {
+        "t1": [
+            {
+                "name": "Cocoon",
+                "prose": "Make an attack and if successful, the enemy becomes Entangled in your whip. You must use an action to keep them Entangled, but may use an action to move them in a direction of your choice equal to your PL, or as an action constrict the whip to inflict harm equal to your Focus. Releasing the enemy takes no action."
+            },
+            {
+                "name": "Lash",
+                "prose": "You make one attack against two enemies, splitting the harm between them at your discretion."
+            },
+            {
+                "name": "Scorpion Sting",
+                "prose": "You lash out with an envenomed whip, afflicting the enemy with Poison."
+            },
+            {
+                "name": "Trip Up",
+                "prose": "You make an attack, aiming for the legs or whatever else the enemy is using to move. On a successful attack, you Crush them."
+            },
+            {
+                "name": "Whip Swing",
+                "prose": "You may use your whip to grab onto a tree branch, light pole, or other suitable protrusion and reposition yourself equal to your Secondary, ignoring terrain in your way."
+            }
+        ],
+        "t2": [
+            {
+                "name": "Cat o’ Nine Tails",
+                "prose": "Consecutive attacks against the same enemy cause effects based on the number of attacks made:\n  2nd attack -  Inflict extra harm equal to your PL.\n  4th attack - Inflict extra harm equal to double your Focus. Resets the counter for Cat o’ Nine Tails."
+            },
+            {
+                "name": "Disarm",
+                "prose": "Make an attack and if successful, you may disarm an enemy instead of harming them, Crushing their attacks with that weapon or limb for rounds equal to your Focus."
+            },
+            {
+                "name": "Sadistic Lure",
+                "prose": "Make an attack and if successful, the enemy is afflicted with Bewitch for up to PL rounds. After this effect ends, they are afflicted with Taunt towards you for the same duration."
+            },
+            {
+                "name": "Waiting Spider",
+                "prose": "If an enemy is Entangled, they suffer harm equal to your Secondary when any attack or ability targets them."
+            }
+        ],
+        "t3": [
+            {
+                "name": "Black Widow",
+                "prose": "Whenever you cause an affliction to a Boss, it lowers their highest statistic by your Primary."
+            },
+            {
+                "name": "Ribbon Dance",
+                "prose": "You attack everything in a 15’ burst, but inflict no harm. The distracting sounds and stings allow all allies within the burst to Invoke or Bolster (their choice). Enemies successfully hit are afflicted with Bewitch."
+            },
+            {
+                "name": "Sadistic Flurry",
+                "prose": "The blood you draw is siphoned up the whip and into yourself. For the next 3 rounds, when you inflict harm, you heal yourself for the same amount."
+            },
+            {
+                "name": "Tangled Web",
+                "prose": "Enemies who attempt to attack you until the beginning of the next round are Entangled before the attack is made. If the attack is still successful, they are Entangled for rounds equal to your PL afterward."
+            }
+        ]
+    }
+}

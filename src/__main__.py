@@ -21,18 +21,8 @@ bot = hikari.GatewayBot(os.environ["TOKEN"])
 client = arc.GatewayClient(bot)
 
 # Load the extension from 'src/extensions/example.py'
-client.load_extension("src.extensions.example")
-
-
-@client.include  # Add command to client
-@arc.slash_command("hi", "Say hi to someone!")  # Define command
-async def hi_slash(
-    # The context contains information about the command invocation
-    ctx: arc.GatewayContext,
-    # To add an option to a command, use the following syntax:
-    user: arc.Option[hikari.User, arc.UserParams("The user to say hi to.")],
-) -> None:
-    await ctx.respond(f"Hey {user.mention}!")
+client.load_extension("src.extensions.roll")
+client.load_extension("src.extensions.randgen")
 
 
 # This must be on the last line, no code will run after this:
