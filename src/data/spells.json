@@ -1,0 +1,144 @@
+{
+    "t1": [
+        {
+            "name": "Blow Kiss",
+            "prose": "You blow a kiss in the direction of a target within range equal to your Charm, applying one random status effect for one round.\n  1 - Invoke\n  2 - Aflame\n  3 - Entangle\n  4 - Poison\n  5 - Bewitch\n  6 - Bolster"
+        },
+        {
+            "name": "Cure",
+            "prose": "You prick your thumb, sacrificing a single drop of blood to remove one affliction of your choice from an ally within range equal to double your Charm."
+        },
+        {
+            "name": "Emergency!",
+            "prose": "You teleport to an ally within range equal to double your Charm, and use the Protect maneuver on them."
+        },
+        {
+            "name": "Eyes on Me",
+            "prose": "You pick out one enemy in particular who can both hear and see you, shouting at them to get their attention. They are afflicted with Taunt towards you until the end of their next turn."
+        },
+        {
+            "name": "Fairy Bolt",
+            "prose": "You shoot a bright bolt of magic at the enemy from the end of your weapon at a target within range equal to your Charm, inflicting one harm. This harm cannot be prevented by any means."
+        },
+        {
+            "name": "Falling Star",
+            "prose": "A single shooting star falls on a target you can see, setting them Aflame for 1 round."
+        },
+        {
+            "name": "Force-Field",
+            "prose": "You create an illusory wall of force in any shape that takes up 5’ per Charm. Enemies cannot cross that barrier, but their attacks may penetrate it at the DM’s discretion. This lasts a number of rounds equal to your PL."
+        },
+        {
+            "name": "Grasping Vine",
+            "prose": "A single thorny vine bursts from the ground underneath a target within range equal to double your Charm, blooming with the caster's favorite flower and afflicting Entangle for 1 round as it wraps and grows around them."
+        },
+        {
+            "name": "Mark",
+            "prose": "You mark an enemy within vision or hearing range with a glowing sigil for 1 round. You may count one failed die as a successful hit when attacking them. Subsequent castings by different MCs stack the effects of Mark. Subsequent castings by someone who has already Marked a target extend the duration."
+        },
+        {
+            "name": "Minimorphosis",
+            "prose": "You turn a target within range equal to your Charm into a harmless little winged insect, such as a butterfly, moth, or ladybug for 1 round. They are Stunned for the duration."
+        },
+        {
+            "name": "Shield",
+            "prose": "You grant a glimmering shield to an ally, temporarily adding your Charm to their HP. Any harm they suffer subtracts from the shield first before their actual HP."
+        },
+        {
+            "name": "Slow",
+            "prose": "A blast of cold localized entirely on an enemy within range equal to your Charm forces them to take 2 actions to move instead of 1 until they take an action to warm back up."
+        }
+    ],
+    "t2": [
+        {
+            "name": "Afterimage",
+            "prose": "Your magic speeds up an ally. On their next turn, they may move up to their Speed without taking an action, leaving an afterimage in their wake."
+        },
+        {
+            "name": "Blink",
+            "prose": "In a flash of light, you teleport to a target within a range equal to your Charm."
+        },
+        {
+            "name": "Glitter Bomb",
+            "prose": "Magic glitter covers every surface, and gets into every crevice. You apply a random affliction to each enemy in a burst equal to your Secondary."
+        },
+        {
+            "name": "Heal",
+            "prose": "You heal a target for an amount of harm equal to your Charm."
+        },
+        {
+            "name": "Illusion",
+            "prose": "You create 2 illusory copies of yourself. When enemies attack you, a roll of 4 hits the first copy and a roll of 5 hits the second, counting as misses. Illusions are destroyed after one attack and last until destroyed."
+        },
+        {
+            "name": "Looking Glass",
+            "prose": "Conjured out of a nearby reflective surface, you summon a ghostly, untouchable copy of an ally that repeats their last attack with new rolls. This copy disappears immediately at the end of their attack."
+        },
+        {
+            "name": "Megamorphosis",
+            "prose": "You turn a target into a massive, scary beast, such as a tiger or grizzly bear. They gain +1 Primary when making basic attacks, but can’t use any abilities."
+        },
+        {
+            "name": "Poison Gas",
+            "prose": "Targets in an aura equal to Charm are inflicted with Poison. The poison aura is stationary, and does not move with you and disperses in PL turns. This duration refreshes each turn they spend in the aura."
+        },
+        {
+            "name": "Pretty Cure",
+            "prose": "You cut your hand, and drops of blood fall to the ground. You remove afflictions equal to your PL of your choice from any number of allies within range."
+        },
+        {
+            "name": "Rescue!",
+            "prose": "Hearing their cries for help, you teleport one ally within a range of your Charm who is the target of an attack, adjacent to yourself. This negates the attack but leaves your ally Bewitched."
+        },
+        {
+            "name": "Soul-Link",
+            "prose": "You mark up to Secondary targets within a range of double Charm. All harm suffered by linked targets is dispersed among them equally for PL rounds."
+        },
+        {
+            "name": "Stealth",
+            "prose": "In a puff of smoke, you turn invisible. Enemies cannot target you directly. Stealth ends after PL rounds, when you attack or use a harm ability or spell."
+        },
+        {
+            "name": "The Pit",
+            "prose": "Up to 3 adjacent enemies fall into an endless pit. They may only escape if they can fly, teleport, or climb, and it takes 2 actions to do so."
+        }
+    ],
+    "t3": [
+        {
+            "name": "Fireball",
+            "prose": "A massive ball of flame erupts from your weapon, hurtling towards a specific target within a range of double Charm. Everyone in a Secondary burst is set Aflame, and suffers harm equal to your Charm."
+        },
+        {
+            "name": "Magic Mirror",
+            "prose": "Out of any nearby reflective surface, you summon a glowing, monochromatic copy of an ally that repeats their last turn with new rolls (if required). This copy disappears at the end of their turn."
+        },
+        {
+            "name": "Meteor Shower",
+            "prose": "Shooting stars fall onto all targets in a burst radius equal to your Secondary. Allies hit by the stars Invoke and are set Aflame, while enemies are set Aflame and afflicted with Stun."
+        },
+        {
+            "name": "Pixie Dust",
+            "prose": "With a plea to the smallfolk, a tiny spark of light spreads glitter among a number of targets equal to your Secondary. Your allies Invoke and Bolster, while enemies are Stunned."
+        },
+        {
+            "name": "Power of Friendship",
+            "prose": "You begin channeling a giant orb of energy from the tip of your weapon, casting light across the battlefield, beckoning your allies to join. At the end of the round, inflict harm equal to Power to enemies within a burst equal to Primary. Harm dealt is multiplied by the number of allies who join the spell with their last action on their turn, and their Charm is added to the total harm done."
+        },
+        {
+            "name": "Resuscitate",
+            "prose": "Restore a dead ally to life with 1 HP."
+        },
+        {
+            "name": "Sanctuary",
+            "prose": "A glowing barrier in the caster's favorite color blooms from their weapon, as wide and tall as their Primary. Enemies cannot leave or enter through this barrier, and you heal all allies behind it for your PL."
+        },
+        {
+            "name": "Skyfall",
+            "prose": "A massive, jagged tear forms in the sky, and from it, a gigantic version of your weapon plummets into the midst of combat, decimating the ground in a PL burst. Roll an attack six times, adding up the hits together and assigning them to targets within the burst."
+        },
+        {
+            "name": "Writhing Vines",
+            "prose": "Thorny vines erupt from the ground, wrapping around anything that they touch, and blooming with the caster's favorite flower. Targets are Entangled in an aura radius equal to your Charm. When they leave the aura, they must roll a 1d6. On a 1–2, they are pulled back in."
+        }
+    ]
+}

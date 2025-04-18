@@ -1,0 +1,320 @@
+{
+    "Weapons": {
+        "Baseball Bat": {
+            "primary": "Power",
+            "secondary": "Charm",
+            "traits": [
+                {
+                    "name": "Batting Average",
+                    "prose": "Every time you inflict lethal harm to an enemy, gain a number of dice equal to your PL to your next attack against another target."
+                },
+                {
+                    "name": "Home Run",
+                    "prose": "When you attack and at least half of the dice are hits, double the harm inflicted. When you attack and all of the dice are hits, triple the harm inflicted."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Shotgun Shell",
+                    "prose": "There's a shotgun shell in your Baseball Bat, ready to fire. At the beginning of each episode, select one of your known spells. You may cast that spell as a spell attack."
+                },
+                {
+                    "name": "Barbed Wire",
+                    "prose": "Your Bat is wrapped in barbed wire, and it eviscerates anyone it hits. Your dice explode on 1s and 2s when you make a basic attack."
+                },
+                {
+                    "name": "Nailbat",
+                    "prose": "Rusty nails stick out of your Bat every odd way. Successful attacks apply Poison for 1 round."
+                },
+                {
+                    "name": "Metal",
+                    "prose": "Your metal Bat is immune to attempts to Crush it. You also gain +1 Primary on attacks when under the effects of an affliction."
+                }
+            ]
+        },
+        "Brass Knuckles": {
+            "primary": "Heart",
+            "secondary": "Power",
+            "traits": [
+                {
+                    "name": "Combo",
+                    "prose": "Each successful basic attack with Brass Knuckles adds a stack of Combo, which grants +1 Primary to all attacks for each stack. You may have a number of stacks equal to your PL. Combo stacks reset to zero when you suffer harm or miss an attack. This is a status effect."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Daisy Dukes",
+                    "prose": "You don't just fight, you fight beautifully. Your attacks Bewitch a different adjacent enemy for 1 turn per Combo stack."
+                },
+                {
+                    "name": "Electric Touch",
+                    "prose": "You've got power in your hand, literally. When you make a successful attack, you may expend a number of Combo stacks to inflict Stun on for an equal number of rounds."
+                },
+                {
+                    "name": "Swarmer",
+                    "prose": "When you make two successful basic attacks against an enemy afflicted by a status effect in the same turn, you may make a third basic attack for free."
+                },
+                {
+                    "name": "Exploding Knees",
+                    "prose": "When you make two successful attacks or in a row, halve the target’s movement for rounds equal to your Secondary."
+                }
+            ]
+        },
+        "Chainsaw": {
+            "primary": "Heart",
+            "secondary": "Power",
+            "traits": [
+                {
+                    "name": "Dismember",
+                    "prose": "Certain abilities can dismember an opponent, permanently crippling one of their body parts, limbs, tentacles, or otherwise. Any ability that Crushes a body part will instead Dismember."
+                },
+                {
+                    "name": "Woodchipper",
+                    "prose": "You can destroy the environment around you as a maneuver, blocking off a path for enemies, allowing your allies new spaces to move, or most any other destruction your heart desires."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Semi-chisel",
+                    "prose": "You sharpen your chainsaw on your enemies. Gain +1 Primary on attacks for each turn you attack the same enemy. The bonus does not exceed your PL."
+                },
+                {
+                    "name": "Anti-kickback",
+                    "prose": "Your chainsaw is designed to minimize reactive forces pushing it back into you. Enemies suffer -1 Secondary against you, to a minimum of 1."
+                },
+                {
+                    "name": "Lumberjack",
+                    "prose": "You've used your chainsaw before you were a Main Character. Whenever you Dismember, you may make a free attack."
+                },
+                {
+                    "name": "Big Teeth",
+                    "prose": "Your chainsaw is made with resplendent monster teeth. Enemies within a range equal to your PL are Bewitched towards you every time you destroy the environment with Woodchipper or Dismember an enemy."
+                }
+            ]
+        },
+        "Gun": {
+            "primary": "Charm",
+            "secondary": "Focus",
+            "traits": [
+                {
+                    "name": "Ranged",
+                    "prose": "Gun has a range equal to double your Charm."
+                },
+                {
+                    "name": "Spell Attack",
+                    "prose": "Once per turn, you may combine a spellcasting and attack action into a spell attack, using your weapon as a spellcasting implement. Spell attacks used in this manner use the area and range of your weapon."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Bazooka",
+                    "prose": "Your spell attacks and basic attacks have a range equal to three times your Charm, a minimum range equal to Charm, and a burst radius around the target equal to Secondary."
+                },
+                {
+                    "name": "Sniper Rifle",
+                    "prose": "Your spell attacks and basic attacks have a range equal to six times your Charm, a minimum range equal to two times your Charm, and are single target."
+                },
+                {
+                    "name": "Shotgun",
+                    "prose": "Your spell attacks and basic attacks affect targets in a Charm-sized cone in front of you."
+                },
+                {
+                    "name": "Machine Gun",
+                    "prose": "Your spell attacks and basic attacks have a range equal to twice your Charm and your hits may be spread among a number of targets equal to your PL."
+                }
+            ]
+        },
+        "Hat": {
+            "primary": "Charm",
+            "secondary": "Heart",
+            "traits": [
+                {
+                    "name": "Familiar",
+                    "prose": "You craft, summon, conjure, or befriend a familiar, who may act on your turn and who uses your actions.  They may attack with their own stats, use maneuvers, and move. This familiar can be of any form or shape, from your loyal dog, your sentient weapon, to an alarmingly helpful eldritch entity. Though this familiar uses your actions, they have their own attack roll (unless you have the Helmet quirk), and their own Harm Pool. It may be helpful to give them their own sheet to track them. Refer to the Enemy statistics table for their statistics based on the Team’s PL. If a familiar is hit with a killing blow, all excess harm is funneled through the Hat and to the MC. Familiars regain 1d6 of their HP at the beginning of each subsequent round while dead, and may be resummoned after at least one round by taking an action to pull them out of your hat."
+                },
+                {
+                    "name": "Sentience",
+                    "prose": "Your familiar is not just a mindless entity, they have opinions, feelings, attitudes and priorities. They can communicate, too, with you and everyone else around them. Roll or select from the Purpose and Attitude tables in the Magical Mascot section of the Appendix. If your familiar may disagree with an action you ask it to take, roll 1d6 to convince it. On a 6, it does something else. On any other number, it does what you ask of it."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Cowboy Hat",
+                    "prose": "Your familiar is large enough to be ridden, and ride it you do. If your familiar is adjacent to you when you move, you may use its movement speed instead of yours. You travel together, taking up space as one."
+                },
+                {
+                    "name": "Witch Hat",
+                    "prose": "Because of your special connection, you gain a third action each turn only for it to use."
+                },
+                {
+                    "name": "Bonnet",
+                    "prose": "Your familiar is as sweet and dainty as the frilly bonnet you wear. Enemies are hesitant to attack it—all enemies are Bewitched by your familiar until they perceive it taking a harmful action."
+                },
+                {
+                    "name": "Helmet",
+                    "prose": "Your familiar is not just your familiar… it's your weapon as well! You may use abilities through your weapon as if you were there, but you may only make basic attacks unless you're holding it. A sentient weapon is able to move separately from the MC."
+                }
+            ]
+        },
+        "Katana": {
+            "primary": "Power",
+            "secondary": "Focus",
+            "traits": [
+                {
+                    "name": "Iaijutsu",
+                    "prose": "Your very first attack against an enemy gains +1 Primary."
+                },
+                {
+                    "name": "Sheathe",
+                    "prose": "You may spend an action to Sheathe your weapon, resetting the Iaijutsu trait. Harm abilities and basic attacks automatically unsheathe your weapon."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Absolute Focus",
+                    "prose": "When you use a maneuver, your weapon is automatically Sheathed."
+                },
+                {
+                    "name": "Metal Flash",
+                    "prose": "You may Bewitch an enemy within your attack range for 1 turn every time you unsheathe your weapon."
+                },
+                {
+                    "name": "Greatsword",
+                    "prose": "Your weapon isn’t a katana, but a massive, two-handed sword even bigger than you are. You gain +2 Primary from Iaijutsu, instead of +1."
+                },
+                {
+                    "name": "It's On Fire Now?",
+                    "prose": "Your katana is on fire. If your dice explode at least once on your attack roll, the target is set Aflame."
+                }
+            ]
+        },
+        "Knives": {
+            "primary": "Focus",
+            "secondary": "Charm",
+            "traits": [
+                {
+                    "name": "Thrown",
+                    "prose": "You have a number of Knives equal to your Focus. You may throw your Knives a range equal to double your Focus."
+                },
+                {
+                    "name": "Stuck",
+                    "prose": "Thrown knives remain in the target until you retrieve them or the enemy removes them as an action. Stuck counts as an affliction."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Cleaver",
+                    "prose": "Your range for Thrown is reduced to equal your Focus, but you gain +1 Primary on attacks made against enemies adjacent to you."
+                },
+                {
+                    "name": "Aerodynamic",
+                    "prose": "Your Thrown range increases by your PL. You gain +1 Primary on attacks made against enemies further range than your Focus."
+                },
+                {
+                    "name": "Serrated",
+                    "prose": "Your knives afflict Bleed on successful attacks. Stuck knives also afflict Bleed when removed."
+                },
+                {
+                    "name": "Surgical",
+                    "prose": "Precision cuts are where your skills lie. Enemies cannot tell when a knife has been Stuck into them."
+                }
+            ]
+        },
+        "Microphone": {
+            "primary": "Charm",
+            "secondary": "Heart",
+            "traits": [
+                {
+                    "name": "Stage Presence",
+                    "prose": "Spells are cast in either a burst (if instantaneous) or an aura (if sustained) around you with a range equal to your Charm, replacing the original range of the spell. All targets inside this range are affected. Damaging spells do not harm allies, and beneficial spells do not affect enemies, unless you choose for them to do so."
+                },
+                {
+                    "name": "Magical Stamina",
+                    "prose": "Burnout gained when you cast spells is reduced by 1, to a minimum of 0."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Lip Sync",
+                    "prose": "Your range for Thrown is reduced to equal your Focus, but you gain +1 Primary on attacks made against enemies adjacent to you."
+                },
+                {
+                    "name": "Voice Modulator",
+                    "prose": "Your Thrown range increases by your PL. You gain +1 Primary on attacks made against enemies further range than your Focus."
+                },
+                {
+                    "name": "Soundwaves",
+                    "prose": "Your knives afflict Bleed on successful attacks. Stuck knives also afflict Bleed when removed."
+                },
+                {
+                    "name": "Mosh Pit",
+                    "prose": "Precision cuts are where your skills lie. Enemies cannot tell when a knife has been Stuck into them."
+                }
+            ]
+        },
+        "Roller Skates": {
+            "primary": "Focus",
+            "secondary": "Power",
+            "traits": [
+                {
+                    "name": "Speed Demon",
+                    "prose": "There's nothing you crave more than going faster and further than anyone else. Add your Power to your Speed."
+                },
+                {
+                    "name": "Fancy Footwork",
+                    "prose": "Your roller skates let you swerve around your enemies and allies alike. When you use an ability that includes a move action, you may activate the effects of that ability twice."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Knee Pads",
+                    "prose": "Your knee pads protect you from scrapes, reducing harm taken by 1."
+                },
+                {
+                    "name": "Derby",
+                    "prose": "You're not just fast, you're mean about it. When you end your turn no longer adjacent to an enemy you were previously adjacent to, and you insult them about it, they are Taunted."
+                },
+                {
+                    "name": "Inline Skates",
+                    "prose": "You're more about speed than just flashy moves. Apply the bonus from the Speed Demon trait to any ability that includes a move action."
+                },
+                {
+                    "name": "Fresh Meat",
+                    "prose": "You look like a newbie, and enemies think you're an easy target. Every three rounds, a new enemy is Taunted by your presence, but you gain +1 Primary for a basic attack or harm ability that turn."
+                }
+            ]
+        },
+        "Whip": {
+            "primary": "Focus",
+            "secondary": "Heart",
+            "traits": [
+                {
+                    "name": "Reach",
+                    "prose": "Your melee attacks extend to a range equal to your PL."
+                },
+                {
+                    "name": "Whip it into Shape",
+                    "prose": "Attacks against enemies with active status effects gain +1 Primary for each effect."
+                }
+            ],
+            "quirks": [
+                {
+                    "name": "Whip Crack",
+                    "prose": "Any time you Bewitch a target through any means, the affliction lasts for extra rounds equal to your PL."
+                },
+                {
+                    "name": "Flaming",
+                    "prose": "Your attacks inflict Aflame for turns equal to your PL."
+                },
+                {
+                    "name": "Fortune and Glory",
+                    "prose": "Your move actions and movement abilities have their maximum distance increased by your PL."
+                },
+                {
+                    "name": "Sticky",
+                    "prose": "Your attacks inflict Taunt for turns equal to your PL."
+                }
+            ]
+        }
+    }
+}
